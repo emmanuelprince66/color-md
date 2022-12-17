@@ -1,0 +1,78 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  width: 100%;
+  height: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+.App {
+  text-align: center;
+  margin: 0 auto;
+}
+
+
+
+.color-list{
+  display: flex;
+  flex-direction: column;
+  padding-top: 2rem;
+  font-size: 20px;
+  font-weight: 600;
+}
+.color-list a{
+  padding: 10px;
+  cursor: pointer;
+  color: rgb(207, 34, 181);
+}
+
+.nav{
+  background-color: #000;
+  color: #FFF;
+  padding: 2rem 0;
+}
+.nav h1{
+  margin-bottom: 15px;
+}
+.nav a{
+  color: rgb(207, 34, 181);
+  font-size: 20px; 
+  margin-top: 15px;
+}
+.body h2{
+  margin-top: 2rem;
+  font-size: 25px;
+}
+
+.form-container{
+  padding-top: 8rem;
+  background-image: linear-gradient(to bottom ,rgb(184, 181, 38), rgb(0, 242, 255));
+  color: white;
+  height: 100vh;
+}
+input{
+  width: 230px;
+  height: 40px;
+  padding: 5px;
+  margin: 10px;
+  outline: none;
+  border: none;
+  border-radius: 8px;
+}
+
+.form-container button{
+  background-color:rgb(184, 181, 38) ;
+  color: #FFF;
+  padding: 6px;
+  outline: none;
+  border: none;
+  align-items: center;
+  border-radius: 6px;
+  margin: 2rem ;
+
+  cursor: pointer;
+}
