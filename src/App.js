@@ -10,26 +10,26 @@ import NewColor from './components/NewColor';
 
 
 function App() {
-  const[inputValue , setInputValue] = useState("");
-  const[color , setColor] = useState("");
+  const[color , setColor] = useState([]);
+  const [id , setId ] = useState('')
+  
   
   return (
     <div className="App">
      <Router>
       <Routes>
         <Route path="/" element={<Navbar
-          inputValue={inputValue}
           color={color}
+          setId={setId}
          
         />}/>
         <Route path='/add' element={<AddColor 
-        setInputValue={setInputValue}
         setColor={setColor}
       
         />}/>
         <Route  path="/new" element={<NewColor 
-         inputValue={inputValue}
-         color={color}
+        id={id}
+        color={color}
       
         />}/>
         <Route  path="/red" element={<Red/>}/>

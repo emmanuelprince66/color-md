@@ -76,3 +76,15 @@ input{
 
   cursor: pointer;
 }
+.btn {
+  padding: 10px 20px;
+  margin: 20px 0px 4px 0px;
+}
+
+.flex li {
+  list-style-type: none;
+  margin: 3px;
+}
+a {
+  text-decoration: none;
+}
